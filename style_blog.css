@@ -1,0 +1,99 @@
+/** {
+box-sizing: border-box;
+border: 3px solid lightgray;
+}*/
+
+* {
+	word-break: keep-all;
+}
+
+img {
+	 width: auto;
+  	max-width: 300px;
+  	height: auto;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0;
+}
+
+li {
+	color: #1E5D20;
+	list-style: none;
+}
+
+
+h2 {
+	background-color: #A8D47A;
+
+}
+
+h3 {
+	background-color: #C6E07B;
+}
+
+section {
+	border: 1px solid #A8D47A;
+	max-width: 1500px;
+}
+
+figcaption {
+	color: gray;
+	font-size: 12px;
+
+}
+
+footer {
+	text-align: center;
+	color: gray;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #1E5D20;
+}
+
+/*.secgroup {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1000px;
+} */
+
+.title_a {
+	color: white;
+}
+
+.artgroup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.artgroup article {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+	background-image: url(image/tree.jpg);
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	color: white;
+	padding: 20px;
+}
+
+.intro {
+	color: gray;
+	text-align: center;
+}
